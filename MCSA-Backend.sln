@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mcsa-backend-authenticationservice", "mcsa-backend-authenticationservice\mcsa-backend-authenticationservice.csproj", "{A7B1F94F-CFBD-4ABB-9519-CCBB0B038795}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationService", "ConfigurationService\ConfigurationService.csproj", "{63DE93AA-21A5-418A-AB21-E1A2F35E97D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mcsa-backend-configurationservice", "mcsa-backend-configurationservice\mcsa-backend-configurationservice.csproj", "{0EA8CE5A-7494-474C-8A13-4647F0BA71D8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationService", "AuthenticationService\AuthenticationService.csproj", "{793085FF-8D49-43A2-8A2A-DAFF61AB03A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mcsa-backend-customerdataservice", "mcsa-backend-customerdataservice\mcsa-backend-customerdataservice.csproj", "{CF80A197-BFEF-403B-83F7-11A26DEA1379}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mcsa-backend-customerdataservice", "CustomerDataService\mcsa-backend-customerdataservice.csproj", "{1A6F44D7-05D3-4E6A-AC43-2E43DD21635C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A7B1F94F-CFBD-4ABB-9519-CCBB0B038795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A7B1F94F-CFBD-4ABB-9519-CCBB0B038795}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A7B1F94F-CFBD-4ABB-9519-CCBB0B038795}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A7B1F94F-CFBD-4ABB-9519-CCBB0B038795}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0EA8CE5A-7494-474C-8A13-4647F0BA71D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0EA8CE5A-7494-474C-8A13-4647F0BA71D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0EA8CE5A-7494-474C-8A13-4647F0BA71D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0EA8CE5A-7494-474C-8A13-4647F0BA71D8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CF80A197-BFEF-403B-83F7-11A26DEA1379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CF80A197-BFEF-403B-83F7-11A26DEA1379}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CF80A197-BFEF-403B-83F7-11A26DEA1379}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CF80A197-BFEF-403B-83F7-11A26DEA1379}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63DE93AA-21A5-418A-AB21-E1A2F35E97D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63DE93AA-21A5-418A-AB21-E1A2F35E97D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63DE93AA-21A5-418A-AB21-E1A2F35E97D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63DE93AA-21A5-418A-AB21-E1A2F35E97D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{793085FF-8D49-43A2-8A2A-DAFF61AB03A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{793085FF-8D49-43A2-8A2A-DAFF61AB03A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{793085FF-8D49-43A2-8A2A-DAFF61AB03A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{793085FF-8D49-43A2-8A2A-DAFF61AB03A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A6F44D7-05D3-4E6A-AC43-2E43DD21635C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A6F44D7-05D3-4E6A-AC43-2E43DD21635C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A6F44D7-05D3-4E6A-AC43-2E43DD21635C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A6F44D7-05D3-4E6A-AC43-2E43DD21635C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
